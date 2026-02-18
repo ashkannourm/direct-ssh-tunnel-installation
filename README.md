@@ -24,7 +24,7 @@
 تنها کافیست دستور زیر را در ترمینال سرور ایران خود کپی و اجرا کنید:
 
 ```bash
-bash <(curl -Ls [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh))
+bash <(curl -Ls https://raw.githubusercontent.com/ashkannourm/direct-ssh-tunnel-installation/main/install.sh)
 ```
 
 ## 📖 نحوه استفاده
