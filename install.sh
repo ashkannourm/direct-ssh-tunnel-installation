@@ -8,7 +8,7 @@ mkdir -p /opt/ssh-tunnel-manager
 cd /opt/ssh-tunnel-manager
 
 # دانلود فایل‌ها از گیت‌هاب شما (آدرس را بعدا اصلاح کنید)
-# git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git .
+bash <(curl -Ls https://raw.githubusercontent.com/ashkannourm/direct-ssh-tunnel-installation/main/install.sh)
 
 # ساخت محیط مجازی و نصب استریم‌لیت
 python3 -m venv venv
@@ -39,4 +39,5 @@ sudo systemctl start ssh-panel
 echo "-------------------------------------------------------"
 echo "✅ نصب با موفقیت انجام شد!"
 echo "🌐 آدرس پنل: http://YOUR_SERVER_IP:2552"
+
 echo "-------------------------------------------------------"
